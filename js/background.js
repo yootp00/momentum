@@ -7,6 +7,10 @@ const chosenImages =images[Math.floor(Math.random() * images.length)];
 function bgImage(){
     const url = "url('img/"+chosenImages+"')";
     document.body.style.backgroundImage = url;
+    if(chosenImages ==="8.png")
+    {
+        document.body.style.color="black";
+    }
 }
 
 bgImage();

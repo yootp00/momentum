@@ -1,4 +1,23 @@
-#bgGround{
-    background-repeat:no-repeat;
-    background-position:center;
+body { color:white; position:absolute;
+    left :50%;
+    transform:translate(-50%,0%);
+}
+#clock {
+    padding-top:30%;
+    font-size: 100px;
+}
+#loginForm,#greeting {
+	padding-left:30%;
+}
+#todo-form {
+	
+}
+#todo-list {
+	
+}
+#quote {
+	
+}
+#weather {
+	
 }
